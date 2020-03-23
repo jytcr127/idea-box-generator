@@ -1,0 +1,273 @@
+
+#filter-quality {
+  margin:0 auto;
+  color:#fff;
+  font-size:30px;
+  margin:18px;
+}
+#cheese {
+  display:grid;
+  grid-template-columns:1fr 7fr;
+}
+
+#bar {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-color:black;
+  width:200px;
+  height:1000px;
+  opacity:90%;
+}
+
+#input-container {
+  display:flex;
+  flex-direction:column;
+}
+
+#simpsons {
+  display:grid;
+  justify-items:center;
+  width:100%;
+  height:314px;
+  background-color:orange;
+  justify-content: center;
+  background: linear-gradient(to right, #30e8bf, #ff8235);
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 275%;
+  margin: 25px;
+}
+
+#header-idea {
+  color: purple;
+}
+
+#header-box {
+  color: #6D6E71;
+  border:3px solid black;
+  margin:10px;
+  padding:5px;
+}
+
+input, textarea, button {
+  border: solid 1px #D1D3D4;
+  font-size: 120%;
+  height: 30px;
+  margin: 15px;
+  outline: none;
+  resize: none;
+  text-indent: 10px;
+  width: 150px;
+}
+
+button {
+  background-color: #00A79D;
+  border-style: none;
+  color: #FFFFFF;
+  height: 32px;
+  width: 230px;
+}
+
+button:hover {
+  background-color: #045E55;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#output-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+.each-idea-card {
+  margin: 20px;
+  width: 350px;
+}
+
+.each-idea-card header {
+  height: 32px;
+  width: 100%;
+}
+
+h3 {
+  color: #6E6D71;
+  float: left;
+  font-family: 'Roboto Slab', serif;
+  font-size: 130%;
+  line-height: 1.3;
+  max-height: 32px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+p {
+  color: #939598;
+  position: relative;
+}
+
+.each-idea-card footer {
+  height: 24px;
+  margin: 30px 0 30px 0;
+  width: 100%;
+}
+
+h6 {
+  color: #6E6D71;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.designation-quality {
+  font-family: 'Roboto Slab', serif;
+}
+
+figure {
+  height: 20px;
+  padding: 2px;
+  width: 20px;
+}
+
+figure:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.upvote {
+  background-image: url('images/upvote.svg');
+  display: inline-block;
+}
+
+.upvote:hover {
+  background-image: url('images/upvote-hover.svg');
+}
+
+.downvote {
+  background-image: url('images/downvote.svg');
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.downvote:hover {
+  background-image: url('images/downvote-hover.svg');
+}
+
+.delete {
+  background-image: url('images/delete.svg');
+  float: right;
+}
+
+.delete:hover {
+  background-image: url('images/delete-hover.svg');
+}
+
+.editing-input-contenteditable {
+  border: none;
+  line-height: 1.3;
+  outline-color: #D1D3D4;
+  outline: normal;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+ .rating-img {
+  height: 30px;
+  float: right;
+}
+
+hr {
+  color: #D1D3D4;
+}
+
+@media screen and (max-width: 500px) {
+  #input-container {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 150%;
+    margin: 15px;
+  }
+
+  input, textarea, button {
+    font-size: 100%;
+    width: 200px;
+  }
+
+  #body-input {
+    height: 80px;
+    white-space: wrap;
+  }
+
+  button {
+    width: 202px;
+  }
+
+  .each-idea-card {
+    margin: 10px;
+    width: 200px;
+  }
+
+  .each-idea-card header {
+    height: 30px;
+  }
+
+  h3 {
+    float: left;
+    font-size: 120%;
+    max-width: 150px;
+  }
+
+  p {
+    clear: both;
+  }
+
+  .each-idea-card footer {
+    height: 24px;
+    margin: 20px 0 20px 0;
+  }
+
+  h6 {
+    font-size: 80%;
+    margin-left: 20px;
+  }
+
+  figure {
+    height: 15px;
+    width: 15px;
+  }
+
+  .rating-img {
+    display: none;
+  }
+}
+
+#user-ideas{ 
+  display: grid;
+  justify-items:center;
+  grid-template-columns: 1fr 1fr;
+   }
+
+   .composition-photo:hover {
+    transform: scale(1) translateY(-0.5rem);
+   }
+.composition:hover .composition-photo:not(:hover) {
+  transform: scale(0.95); };
+
+
+  #filter-buttons {
+   display:grid;
+   justify-items:center;
+  }
+
+  .filter-button {
+    width:150px;
+    margin:20px;
+  }
